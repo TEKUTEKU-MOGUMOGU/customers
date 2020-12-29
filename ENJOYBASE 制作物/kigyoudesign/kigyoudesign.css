@@ -1,0 +1,101 @@
+.input__area {
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+
+.input__area img {
+    height: 150px;
+    width: 150px;
+}
+
+.input__area input {
+    display: none;
+}
+
+.input-button::before {
+    background: #616161;
+    border-radius: 50%;
+    color: #fff;
+    content: "＋";
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+    opacity: 0.9;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    line-height: 3rem;
+    height: 3rem;
+    text-align: center;
+    width: 3rem;
+}
+
+/*body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+.slot {
+    width: 90%;
+    height: 500px;
+    overflow: hidden;
+    margin: auto;
+    border : solid 1px #333 ;
+}
+.slot-frame {
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    border : solid 1px #333 ;
+}
+.reels {
+    width: 31%;
+    position: absolute;
+}
+.reels:nth-child(1) {
+    left: 0;
+}
+.reels:nth-child(2) {
+    left: 33%;
+}
+.reels:nth-child(3) {
+    right: 0;
+}
+.reel {
+    height: 270px;
+}
+.reel img {
+    display: block;
+    width: 89%;
+    margin: auto;
+}*/
+
+table, tr, td{
+    border-style:none;
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.storeinfo{
+    right:100px;
+    position:absolute;
+    top:80px;
+}
+@media (max-width:1400px) {
+    .storeinfo{
+        position: relative;
+        left: 0;
+        top:0;
+        right:0;
+        bottom:0;
+        margin-bottom: 20px;
+    }
+}
